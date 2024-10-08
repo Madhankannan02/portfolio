@@ -1,0 +1,17 @@
+.contribute-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1E1E1E;
+    gap: 40px;
+    padding: 80px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.inside-content{
+    width: 100%;
+}

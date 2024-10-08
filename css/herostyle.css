@@ -1,0 +1,62 @@
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1E1E1E;
+    gap: 80px;
+    padding: 80px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.hero-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.left-up{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 48px;
+    font-weight: 600;
+    color: #007bff;
+    text-align: left;
+}
+
+.designation{
+    font-size: 24px;
+    font-weight: 400;
+    color: #b0b0b0;
+}
+
+.left-down{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.quotes-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.dp{
+    width: 420px;
+    height: 480px;
+    border-radius: 12px;
+    object-fit: cover;
+}

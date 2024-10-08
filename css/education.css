@@ -1,0 +1,65 @@
+.education-section{display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  gap: 40px;
+  padding: 80px;
+  background-color: #1E1E1E;
+  border-radius: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.one-edu{
+  background-color: #121212;
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  justify-content: flex-start;
+  border-radius: 24px;
+  width: 100%;
+}
+
+.edu-icon{
+  height: 40px;
+}
+
+.text-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side-edu{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-start;
+}
+
+.degree{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dept,
+.college{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.right-side-edu{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.time,
+.cgpa{
+  text-align: right;
+}

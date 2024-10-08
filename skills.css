@@ -1,0 +1,153 @@
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1E1E1E;
+    gap: 40px;
+    padding: 80px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+
+
+.single-skill{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skill-name-percentage{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-name{
+    font-size: 24px;
+}
+
+.percentage{
+    font-size: 20px;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+}
+
+.front-rec-10 {
+    width: 100%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.front-rec-9 {
+    width: 90%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.front-rec-8 {
+    width: 80%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.front-rec-7 {
+    width: 70%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.front-rec-6 {
+    width: 60%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.front-rec-5 {
+    width: 50%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.front-rec-4 {
+    width: 40%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.front-rec-3 {
+    width: 30%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.front-rec-2 {
+    width: 20%;
+    background-color: #007bff;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.back-rec {
+    width: 100%;
+    background-color: #1b2734;
+    border-radius: 12px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
